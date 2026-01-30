@@ -60,3 +60,19 @@ TIMM
 Jupyter Notebook  
 Google Colab  
 
+## 📊 Results and Evaluation
+
+### Validation Performance
+- **Accuracy:** 75.67%
+- **Precision (weighted):** 0.7621
+- **Recall (weighted):** 0.7567
+- **F1-score (weighted):** 0.7587
+
+### Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
+
+### ROC Curve
+![ROC Curve](results/roc_curve.png)
+
+
+

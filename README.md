@@ -15,6 +15,18 @@ This project proposes a Vision Transformer–based approach to objectively class
 Dog Emotion Dataset obtained from Kaggle.
 The dataset contains approximately 4,000 images of dogs categorized into four emotion classes:
 Angry, Happy, Relaxed, and Sad.
+- **Source:** Kaggle – Dog Emotion Dataset  
+- **Link:** https://www.kaggle.com/datasets/danielshanbalico/dog-emotion  
+- **Domain:** Veterinary  
+- **Emotion Classes:** Angry, Happy, Relaxed, Sad  
+- **Image Type:** RGB dog facial images  
+
+### Preprocessing Steps
+- Images resized to 224×224 pixels  
+- Pixel normalization applied  
+- Strong data augmentation used to handle small dataset size  
+- Stratified train–validation split (85% training, 15% validation)
+
 
 ## Model
 Vision Transformer (ViT-B/16) using transfer learning.

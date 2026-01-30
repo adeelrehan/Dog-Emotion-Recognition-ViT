@@ -67,12 +67,17 @@ Google Colab
 - **Precision (weighted):** 0.7621
 - **Recall (weighted):** 0.7567
 - **F1-score (weighted):** 0.7587
-
-### Confusion Matrix
-![Confusion Matrix](results/confusion_matrix.png)
-
-### ROC Curve
+- 
+- ![Confusion Matrix](results/confusion_matrix.png)
+- 
 ![ROC Curve](results/roc_curve.png)
+
+
+## 📓 Notebook
+
+The complete implementation, training, and evaluation of the Vision Transformer model is available in the following notebook:
+
+- `notebooks/Dog_Emotion_Recognition_ML2026_final.ipynb`
 
 
 

@@ -28,9 +28,18 @@ Angry, Happy, Relaxed, and Sad.
 - Stratified train–validation split (85% training, 15% validation)
 
 
-## Model
-Vision Transformer (ViT-B/16) using transfer learning.
-The model processes image patches using self-attention to capture global visual context.
+## 🧠 Model Architecture
+
+This project uses a **Vision Transformer (ViT)** model implemented completely from scratch.  
+The model works by dividing each input image into fixed-size patches, which are then flattened and embedded into token representations.
+
+These tokens are passed through Transformer encoder layers consisting of multi-head self-attention and feed-forward networks.  
+The self-attention mechanism enables the model to capture global contextual relationships across different regions of the image, which is essential for recognizing subtle emotional expressions in dogs.
+
+The final representation is passed through a fully connected classification head to predict one of four emotion classes: Angry, Happy, Relaxed, or Sad.
+
+⚠️ No pretrained models or transfer learning techniques were used.
+
 
 ## Evaluation Metrics
 Accuracy  
